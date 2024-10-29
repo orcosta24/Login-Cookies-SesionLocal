@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici 1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>EXERCICI 1 UF2</h1>
+    <p id="tempsactual" style="text-align: center;"></p>
+
+    <!-- APARTADO MENSAJES -->
+    <div>
+        <p id="aprtMsg"></p>
+    </div>
+
+    <div>
+        <p id="missatges"></p>
+    </div>
+
+    <!-- FOTMULARIO -->
+    <center>
+
+        <table id="form" class="form">
+            <tbody>
+                <tr>
+                    <td class="thleft">
+                        <h2>LOGIN:</h2>
+                        <p>Usuari:
+                            <input type="text" name="user" id="user" value="">
+                        </p>
+                        <p>Contrasenya:
+                            <input type="password" name="contra" id="contra">
+                        </p>
+                    </td>
+                    
+                    <tfoot>
+                        <td style="text-align: center;">
+                            <button id="validar" class="botForm">ACEPTAR</button>
+                        </td>
+                    </tfoot>
+
+                </tr>
+            </tbody>
+        </table>
+
+        <table id="selector-dinamic" class="form2">
+            <tbody>
+                <tr>
+                    <td class="thleft">
+                        <h2>Selecciona el teu curs:</h2>
+                        <select id="cusos" name="cursos" required>
+                            <option value="futbol">DAW</option>
+                            <option value="baloncesto">DAM</option>
+                            <option value="natacion">ASIX</option>
+                        </select>
+
+                        <tfoot>
+                            <td style="text-align: center;">
+                                <button id="logout" class="botForm" onclick="logOut();">LOG OUT</button>
+                            </td>
+                        </tfoot>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </center>
+
+    <!-- FOOTER BOTO VALIDAR COOKIES -->
+    <footer id="a"> 
+        <p>
+            <a href="" onclick="window.open('termesus.html', '_blank')">Per realitzar la consulta primer de tot has d'aceptar la politica de cookies</a>
+        </p>
+        <button id="aceptar-cookies" class="botForm">ACEPTAR </button>
+        <button id="rebug-cookies" class="botForm">REBUTJAR</button>
+    </footer>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>

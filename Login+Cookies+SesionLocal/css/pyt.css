@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(90deg, rgba(107, 50, 252, 1) 1%, rgba(139, 215, 230, 1) 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5% 10%;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+}
+
+button {
+    margin: 2%;
+    padding: 2.5%;
+    color: white;
+    background-color: rgb(3, 163, 163);
+    font-size: 100%;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.section {
+    margin-bottom: 50px;
+}

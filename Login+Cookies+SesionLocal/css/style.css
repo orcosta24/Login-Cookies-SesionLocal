@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(90deg, rgba(107,50,252,1) 1%, rgba(139,215,230,1) 100%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10vh 15vh;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center; 
+    color: white;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+p{  
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+}
+
+button{
+    margin: 2%;
+    padding: 2.5%;
+    color: white;
+    background-color:rgb(3, 163, 163);
+    font-size: 100%;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+input{
+    font-size: 25px;
+    padding: 1%;
+}
+
+
+
+/* PRIMER DIV */
+.form{
+    width: 600px;
+    height: 375px;
+    background-color: white;
+    padding: 45px;
+    border-radius: 25px;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+}
+
+.form h2{
+    margin-top: -2%;
+    color: black;
+}
+
+.form p{
+    color: black;
+}
+
+
+
+/* SEGUNDO DIV */
+.form2{
+    width: 600px;
+    height: 275px;
+    background-color: white;
+    padding: 45px;
+    border-radius: 25px;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+}
+
+
+.form2 h2{
+    margin-top: -2%;
+    color: black;
+}
+
+.form2 p{
+    color: black;
+}
+
+.form2 select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 10px 1px;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.thleft{
+    width: 50%; 
+    text-align: justify; 
+    vertical-align: top; 
+    padding-right: 20px;
+    text-align: start;
+}
+
+
+
+.thright{
+    width: 50%; 
+    padding-top: 1.9%;
+    text-align: justify;
+    vertical-align: center; 
+    padding-left: 20px;
+}
+
+.ppetit{
+    text-align: start;
+    color: black;
+    font-size: 20px;
+}
+
+.botForm{
+    margin: 2%;
+    margin-left: -0.1%;
+    padding: 15px;
+    color: white;
+    background-color:rgb(3, 163, 163);
+    font-size: 30px;
+}
+
+footer{
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    padding: 25px;
+    height:150px;
+    width:100%;
+    background:white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    display: block;
+}
+
+footer p{
+    color: black;
+    margin-bottom: -10px;
+}
